@@ -1,0 +1,19 @@
+// set up random group 
+random.m 
+
+See end of file for example of use 
+
+// convert between group and matrix 
+group-matrix.m 
+
+See end of file for examples of use 
+
+// to setup brahana list for given p
+brahana-list.m
+
+It loads present.m, program.m and group-matrix.m
+
+// compute invariants 
+invariants.m
+
+Mildly revised version of original invariant code 
