@@ -11,7 +11,7 @@ See end of file for examples of use
 // to setup brahana list for given p
 brahana-list.m
 
-It loads present.m, program.m and group-matrix.m
+It loads group-matrix.m
 
 // compute invariants 
 invariants.m
