@@ -1,6 +1,5 @@
 // set up list of 60 Brahana groups 
 
-load "dual.m";
 load "group-matrix.m";
 load "brahana.m";
 
