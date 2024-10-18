@@ -15,6 +15,7 @@ Reps-5-4.m
 invariants.m
 Main function: GeometricInvariants (B);  where B is skew-symmetric matrix 
 
+// Example of session 
 % magma 
 load "group-matrix.m";
 load "invariants.m";
