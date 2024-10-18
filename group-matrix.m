@@ -62,7 +62,7 @@ G := PCGroup(\[ 9, -5, 5, 5, 5, 5, -5, 5, 5, 5, 56341, 422552, 225912,
 B := GroupToMatrix (G);
 H := MatrixToGroup (B, p);
 IsIdenticalPresentation (G, H);
-I := BothGeometricInvariants (B);
+I := GeometricInvariants (B);
 I;
 
 */
