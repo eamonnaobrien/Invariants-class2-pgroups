@@ -1,19 +1,27 @@
-// set up random group 
+// set up random group and random 5x5 skew-symmetric matrix 
 random.m 
-
 See end of file for example of use 
 
-// convert between group and matrix 
+// convert between group and skew-symmetric matrix 
 group-matrix.m 
-
 See end of file for examples of use 
 
-// to setup brahana list for given p
-brahana-list.m
-
-It loads group-matrix.m
+// reps for groups of type (4, 3), (5, 3), and (5,4)
+Reps-4-3.m
+Reps-5-3.m
+Reps-5-4.m
 
 // compute invariants 
 invariants.m
+Main function: GeometricInvariants (B);  where B is skew-symmetric matrix 
 
-Mildly revised version of original invariant code 
+% magma 
+load "group-matrix.m";
+load "invariants.m";
+load "reps-5-3.m";
+p := 5;
+Q, M := Reps53 (p);
+// Q is list of pc-groups of type p^(5 + 3) 
+// M is corresponding list of skew-symmetric matrices 
+I := {@ GeometricInvariants (m): m in M @};
+#I; 
