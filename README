@@ -6,7 +6,7 @@ See end of file for example of use
 group-matrix.m 
 See end of file for examples of use 
 
-// reps for groups of type (4, 3), (5, 3), and (5,4)
+// definitions for groups of type (4, 3), (5, 3), and (5,4)
 Reps-4-3.m
 Reps-5-3.m
 Reps-5-4.m
