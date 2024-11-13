@@ -7,9 +7,11 @@ group-matrix.m
 See end of file for examples of use 
 
 // definitions for groups of type (4, 3), (5, 3), and (5,4)
-Reps-4-3.m
-Reps-5-3.m
-Reps-5-4.m
+Reps-4-3.m -- Q, M := Reps43 (p)
+Reps-5-3.m -- Q, M := Reps53 (p)
+Reps-5-4.m -- Q, M, L := Reps54 (p) 
+In each case, the function returns Q -- a list of pc-presentations for the groups, M -- a list of the corresponding skew-symmetric matrices
+Reps54 returns a 3rd value L, a list of labels from Brahana's papers. 
 
 // compute invariants 
 invariants.m
@@ -26,3 +28,5 @@ Q, M := Reps53 (p);
 // M is corresponding list of skew-symmetric matrices 
 I := {@ GeometricInvariants (m): m in M @};
 #I; 
+
+November 2024 
