@@ -10,8 +10,9 @@ See end of file for examples of use
 Reps-4-3.m -- Q, M := Reps43 (p);
 Reps-5-3.m -- Q, M := Reps53 (p);
 Reps-5-4.m -- Q, M, L := Reps54 (p); 
-In each case, the function returns Q -- a list of pc-presentations for the p-groups for given prime p and M -- a list of the corresponding skew-symmetric matrices
-Reps54 returns a 3rd value L, a list of labels used by Brahana in his papers for orbit representatives. 
+In each case, the function returns Q -- a list of pc-presentations for the p-groups for given prime p 
+                               and M -- a list of the corresponding skew-symmetric matrices
+Reps54 returns a 3rd value L, a list of labels of orbit representatives used by Brahana. 
 
 // compute invariants 
 invariants.m
