@@ -1,3 +1,8 @@
+This repo contains code related to the preprint
+
+Geometric invariants for p-groups of class 2 and exponent p
+E. A. O'Brien Mima Stanojkovski
+
 // set up random group and random 5x5 skew-symmetric matrix 
 random.m 
 See end of file for example of use 
